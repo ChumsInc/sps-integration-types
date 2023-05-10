@@ -5,12 +5,28 @@
   "main": "",
   "typings": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtahGooner/sps-integration-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UtahGooner/sps-integration-types/issues"
+  },
+  "homepage": "https://github.com/UtahGooner/sps-integration-types#readme",
   "keywords": [
     "SPS",
     "EDI"
   ],
   "author": "Steve Montgomery",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false
+  }
 }
