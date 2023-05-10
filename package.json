@@ -1,6 +1,6 @@
 {
   "name": "sps-integration-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Types for integrating, mapping and importing SPS EDI csv orders to Sage.",
   "main": "",
   "typings": "index.d.ts",
